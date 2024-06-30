@@ -8,3 +8,6 @@ vim.keymap.set(
   "<cmd>Neotree focus<cr>",
   { noremap = true, silent = true, desc = "Forcus directory tree" }
 )
+
+-- Select all
+vim.keymap.set("n", "<C-a>", "gg<S-v>G", { noremap = true, silent = true, desc = "Select all" })
