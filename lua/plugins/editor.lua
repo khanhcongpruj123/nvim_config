@@ -10,9 +10,6 @@ return {
           duration = 0,
           delay = 0,
         },
-        line_num = {
-          enable = true,
-        },
         indent = {
           enable = true,
         },
